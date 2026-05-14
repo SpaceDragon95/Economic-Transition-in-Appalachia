@@ -26,11 +26,13 @@ Data is stored and processed using Databricks and Spark.
 
 ## Data Sources
 - BLS QCEW (Quarterly Census of Employment and Wages)
-  -   County-level employment and wage data
+  -   [County-level employment and wage data](https://www.bls.gov/cew/downloadable-data-files.htm)
+  -   [Field Layout Link](https://www.bls.gov/cew/about-data/downloadable-file-layouts/annual/naics-based-annual-layout.htm)
 - U.S. Census Population Estimates (PEP)
-  -   Annual population estimates by county
+  -   [Annual population estimates by county](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)
+  -   Field Layout Link](https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2025/CO-EST2025-ALLDATA.pdf)
 -   FCC Broadband Data
-    - Internet access availability at the census tract level
+    - [Internet access availability at the census tract level](https://www.fcc.gov/form-477-census-tract-data-internet-access-services)
 
 ## Key Features
 - Large dataset ingestion and transformation
