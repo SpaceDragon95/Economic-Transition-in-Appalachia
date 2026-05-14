@@ -30,7 +30,7 @@ Data is stored and processed using Databricks and Spark.
   -   [Field Layout Link](https://www.bls.gov/cew/about-data/downloadable-file-layouts/annual/naics-based-annual-layout.htm)
 - U.S. Census Population Estimates (PEP)
   -   [Annual population estimates by county](https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html)
-  -   Field Layout Link](https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2025/CO-EST2025-ALLDATA.pdf)
+  -   [Field Layout Link](https://www2.census.gov/programs-surveys/popest/technical-documentation/file-layouts/2020-2025/CO-EST2025-ALLDATA.pdf)
 -   FCC Broadband Data
     - [Internet access availability at the census tract level](https://www.fcc.gov/form-477-census-tract-data-internet-access-services)
 
