@@ -43,8 +43,6 @@ Data is stored and processed using Databricks and Spark.
 ## Current Status
   This project is actively in development.
 
-  Due to data size and ingestion constraints, the current implementation uses a subset of the full dataset for demonstration purposes.  The pipeline is designed to scale to a full dataset.
-
 ## Planned Output
   - Interactive dashboard showing:
     - Population change vs employment trends
