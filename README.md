@@ -58,7 +58,7 @@ Broadband access and economic opportunity are deeply connected, especially in ru
 - Broadband data is reported at the census tract level, while population and employment data are reported at the county level.
 - Gold-layer transformations aggregate broadband metrics to support county-level analysis.
 
-## Broadband-Specific Data Considerations
+### Broadband-Specific Data Considerations
 
 The FCC broadband data is reported at the census tract level and represented as ordinal categories rather than continuous measurements. To support county-level analysis while preserving multiple perspectives of broadband availability, the Gold layer includes several summary metrics:
 
