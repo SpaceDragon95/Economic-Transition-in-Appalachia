@@ -51,3 +51,26 @@ Data is stored and processed using Databricks and Spark.
    
 ## Why This Matters
 Broadband access and economic opportunity are deeply connected, especially in rural regions like Appalachia. This project aims to highlight patterns that may inform future infrastructure and policy decisions.
+
+## Data Considerations
+- FCC broadband source files used different availability category fields across years.
+- During ingestion, schema alignment was required to create a consistent broadband dataset.
+- Broadband data is reported at the census tract level, while population and employment data are reported at the county level.
+- Gold-layer transformations aggregate broadband metrics to support county-level analysis.
+
+## Broadband-Specific Data Considerations
+
+The FCC broadband data is reported at the census tract level and represented as ordinal categories rather than continuous measurements. To support county-level analysis while preserving multiple perspectives of broadband availability, the Gold layer includes several summary metrics:
+
+- Mean category
+- Median category
+- Mode category
+- Minimum category
+- Maximum category
+- Percentage of tracts in categories 4–5 (higher broadband availability)
+- Percentage of tracts in categories 0–1 (lowest broadband availability)
+- Percentage of tracts in categories 0–2 (limited broadband availability)
+
+Because the source data is categorical, no single aggregation fully captures broadband conditions within a county. Including multiple summary measures provides a more complete view of the distribution of broadband availability across county tracts.
+
+Both the 0–1 and 0–2 percentages are included because they highlight different levels of limited broadband access and support comparison of alternative measures during analysis.
