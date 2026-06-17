@@ -57,6 +57,7 @@ Broadband access and economic opportunity are deeply connected, especially in ru
 - During ingestion, schema alignment was required to create a consistent broadband dataset.
 - Broadband data is reported at the census tract level, while population and employment data are reported at the county level.
 - Gold-layer transformations aggregate broadband metrics to support county-level analysis.
+- Dimension tables were evaluated during the Gold layer and retained without modification because they already contained the required analytical grain.  
 
 ### Broadband-Specific Data Considerations
 
