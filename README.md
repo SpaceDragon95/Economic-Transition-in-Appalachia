@@ -72,6 +72,15 @@ The FCC broadband data is reported at the census tract level and represented as 
 - Percentage of tracts in categories 0–1 (lowest broadband availability)
 - Percentage of tracts in categories 0–2 (limited broadband availability)
 
+### Employment-Specific Data Considerations
+
+Quarter was removed because only annual aggregate records (Quarter A) are retained.
+
+
+
 Because the source data is categorical, no single aggregation fully captures broadband conditions within a county. Including multiple summary measures provides a more complete view of the distribution of broadband availability across county tracts.
+
+
+Investigation paused pending validation of county-level industry employment data. County-level totals validated; industry-level aggregation requires further source analysis.
 
 Both the 0–1 and 0–2 percentages are included because they highlight different levels of limited broadband access and support comparison of alternative measures during analysis.
